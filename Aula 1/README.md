@@ -1,69 +1,78 @@
 ## Aula 1
 
-### 1.1	Conceitos Gerais ñ Backend, Frontend, Mobile e Banco de Dados
+### 1.1	Conceitos Gerais ‚Äì Backend, Frontend, Mobile e Banco de Dados
 
-As linguagens server-side s„o linguagens que o SERVIDOR entende. Isso quer dizer que vai escrever um cÛdigo onde o servidor vai process·-lo e ent„o vai mandar para o seu navegador a resposta.
+As linguagens server-side s√£o linguagens que o SERVIDOR entende. Isso quer dizer que vai escrever um c√≥digo onde o servidor vai process√°-lo e ent√£o vai mandar para o seu navegador a resposta.
 
-As linguagens client-side s„o linguagens onde apenas o seu NAVEGADOR vai entender. Quem vai processar essa linguagem n„o È o servidor, mas o seu browser.
+As linguagens client-side s√£o linguagens onde apenas o seu NAVEGADOR vai entender. Quem vai processar essa linguagem n√£o √© o servidor, mas o seu browser.
 
 #### Mobile
 
 #### Banco de Dados
 
-Um banco de dados È uma coleÁ„o de dados inter-relacionados, representando informaÁıes sobre um domÌnio especÌfico.
+Um banco de dados √© uma cole√ß√£o de dados inter-relacionados, representando informa√ß√µes sobre um dom√≠nio espec√≠fico.
 
 ##### Relacional
 
-Os bancos de dados relacionais s„o fundamentados no paradigma da orientaÁ„o a conjuntos, uma vez que sua base È construÌda em cima da teoria dos conjuntos.
+Os bancos de dados relacionais s√£o fundamentados no paradigma da orienta√ß√£o a conjuntos, uma vez que sua base √© constru√≠da em cima da teoria dos conjuntos.
 
-Esses bancos armazenam dados em estruturas chamadas tabelas, compostas por colunas ó atributos e linhas ó, tuplas ou registros. Sua linguagem È a SQL (Structured Query Language).
+Esses bancos armazenam dados em estruturas chamadas tabelas, compostas por colunas ‚Äî atributos e linhas ‚Äî, tuplas ou registros. Sua linguagem √© a SQL (Structured Query Language).
 
 ACID:
-- Atomicidade: Numa transaÁ„o, ou todos os registros s„o alterados ou tudo È restaurado ‡ condiÁ„o original, garantindo que nenhuma alteraÁ„o fique pela metade;
-- ConsistÍncia: Assegura que os dados sejam consistentes antes e depois de uma alteraÁ„o. Por exemplo, n„o se pode vender um item cuja quantidade na compra È maior do que a disponÌvel em estoque;
-- Isolamento: … encarregado de isolar as transaÁıes, de forma que elas sejam visÌveis ao resto da aplicaÁ„o somente depois de concluÌdas.
-- Durabilidade: Toda informaÁ„o do banco de dados precisa ser dur·vel, somente podendo ser alterada pela aplicaÁ„o atravÈs de comandos DML (Data Manipulation Language), que fazem "inserts", "updates" ou "deletes".
+- Atomicidade: Numa transa√ß√£o, ou todos os registros s√£o alterados ou tudo √© restaurado √† condi√ß√£o original, garantindo que nenhuma altera√ß√£o fique pela metade;
+- Consist√™ncia: Assegura que os dados sejam consistentes antes e depois de uma altera√ß√£o. Por exemplo, n√£o se pode vender um item cuja quantidade na compra √© maior do que a dispon√≠vel em estoque;
+- Isolamento: √â encarregado de isolar as transa√ß√µes, de forma que elas sejam vis√≠veis ao resto da aplica√ß√£o somente depois de conclu√≠das.
+- Durabilidade: Toda informa√ß√£o do banco de dados precisa ser dur√°vel, somente podendo ser alterada pela aplica√ß√£o atrav√©s de comandos DML (Data Manipulation Language), que fazem "inserts", "updates" ou "deletes".
 
-##### N„o-Relacional
+##### N√£o-Relacional
 
-Esse tipo de Banco de Dados surge como soluÁ„o para situaÁıes nas quais os bancos relacionais n„o atendem de forma satisfatÛria. Ambientes com dados mistos ó como imagens, mapas e tabelas ó que n„o podem ser facilmente tabulados em linhas e colunas necessitam de uma soluÁ„o n„o-relacional.
+Esse tipo de Banco de Dados surge como solu√ß√£o para situa√ß√µes nas quais os bancos relacionais n√£o atendem de forma satisfat√≥ria. Ambientes com dados mistos ‚Äî como imagens, mapas e tabelas ‚Äî que n√£o podem ser facilmente tabulados em linhas e colunas necessitam de uma solu√ß√£o n√£o-relacional.
 
-Surgem aÌ bancos conhecidos como NoSQL (Do inglÍs, Not Only SQL).
+Surgem a√≠ bancos conhecidos como NoSQL (Do ingl√™s, Not Only SQL).
 
 CAP:
-- Consistency: ConsistÍncia nas informaÁıes armazenadas;
+- Consistency: Consist√™ncia nas informa√ß√µes armazenadas;
 - Availability: Disponibilidade do banco de dados;
-- Partition Tolerance: Toler‚ncia ao particionamento das informaÁıes.
+- Partition Tolerance: Toler√¢ncia ao particionamento das informa√ß√µes.
 
-### 1.2	InÌcio Infraestrutura ñ Como funciona a Internet, requisiÁıes
+### 1.2	In√≠cio Infraestrutura ‚Äì Como funciona a Internet, requisi√ß√µes
 
 #### Protocolo HTTP
 
-… um protocolo que os clientes e os servidores usam para se comunicar. Essa comunicaÁ„o È baseada em requisiÁıes (request) e respostas (responses). 
+√â um protocolo que os clientes e os servidores usam para se comunicar. Essa comunica√ß√£o √© baseada em requisi√ß√µes (request) e respostas (responses). 
 
-Conte˙do de uma solicitaÁ„o:
-- MÈtodo HTTP
-- P·gina que ser· acessada
-- Par‚metros do formul·rio
+Conte√∫do de uma solicita√ß√£o:
+- M√©todo HTTP
+- P√°gina que ser√° acessada
+- Par√¢metros do formul√°rio
 
-Conte˙do de uma resposta:
-- CÛdigo de status (informa se a solicitaÁ„o foi realizada com sucesso ou n„o)
-- Tipo de Conte˙do (HTML, figuras, textos, etc)
-- Conte˙do (HTML real, imagem, etc)
+Conte√∫do de uma resposta:
+- C√≥digo de status (informa se a solicita√ß√£o foi realizada com sucesso ou n√£o)
+- Tipo de Conte√∫do (HTML, figuras, textos, etc)
+- Conte√∫do (HTML real, imagem, etc)
 
-#### MÈtodos HTTP
+#### M√©todos HTTP
 
-__GET__ - Solicita ao servidor um recurso chamado de solicitaÁ„o URl. Este È o mÈtodo padr„o, pois È a forma como o browser chama o servidor quando se digita uma URL para que ele a recupere.
-__POST__ - ContÈm um corpo nos quais seus par‚metros de solicitaÁ„o j· s„o codificados. O mais frequente uso desse mÈtodo È na submiss„o de formul·rios.
-__HEAD__ - Similar ao mÈtodo GET, o servidor apenas retoma a linha de resposta e os cabeÁalhos de resposta.
-__PUT__ - Esse mÈtodo permite o envio de arquivos par ao servidor Web.
-__DELETE__ - Permite a exclus„o de documentos dentro do servidor Web.
-__OPTIONS__ - … possÌvel fazer uma consulta de quais comandos est„o disponÌveis para um determinado usu·rio.
-__TRACE__ - Permite depurar as requisiÁıes, devolvendo o cabeÁalho de um documento.
+__GET__ - Solicita ao servidor um recurso chamado de solicita√ß√£o URl. Este √© o m√©todo padr√£o, pois √© a forma como o browser chama o servidor quando se digita uma URL para que ele a recupere.
 
-#### CÛdigos de HTTP mais comuns
+__POST__ - Cont√©m um corpo nos quais seus par√¢metros de solicita√ß√£o j√° s√£o codificados. O mais frequente uso desse m√©todo √© na submiss√£o de formul√°rios.
 
-__200 (OK)__ ñ Informa que a confirmaÁ„o da requisiÁ„o foi respondida com sucesso.
-__401 (UNAUTHORIZED)__ ñ Informa que o cliente n„o tem acesso autorizado para acessar a ·rea requisitada. Ocorre muito em intranets de acesso privado que precisam ser acessadas com um usu·rio e senha.
-__403 (FORBIDDEN)__ ñ Informa que o acesso ‡ ·rea requisitada falhou. Isso pode ocorrer em caso de acesso a ·reas que exigem login e senha e n„o houve autorizaÁ„o para aquele usu·rio.
-__404 (NOT FOUND)__ - N„o encontrado. Ocorre quando o usu·rio tenta acessar uma ·rea inexistente no endereÁo passado, por exemplo, p·ginas removidas ou recursos excluÌdos.
+__HEAD__ - Similar ao m√©todo GET, o servidor apenas retoma a linha de resposta e os cabe√ßalhos de resposta.
+
+__PUT__ - Esse m√©todo permite o envio de arquivos par ao servidor Web.
+
+__DELETE__ - Permite a exclus√£o de documentos dentro do servidor Web.
+
+__OPTIONS__ - √â poss√≠vel fazer uma consulta de quais comandos est√£o dispon√≠veis para um determinado usu√°rio.
+
+__TRACE__ - Permite depurar as requisi√ß√µes, devolvendo o cabe√ßalho de um documento.
+
+#### C√≥digos de HTTP mais comuns
+
+__200 (OK)__ ‚Äì Informa que a confirma√ß√£o da requisi√ß√£o foi respondida com sucesso.
+
+__401 (UNAUTHORIZED)__ ‚Äì Informa que o cliente n√£o tem acesso autorizado para acessar a √°rea requisitada. Ocorre muito em intranets de acesso privado que precisam ser acessadas com um usu√°rio e senha.
+
+__403 (FORBIDDEN)__ ‚Äì Informa que o acesso √† √°rea requisitada falhou. Isso pode ocorrer em caso de acesso a √°reas que exigem login e senha e n√£o houve autoriza√ß√£o para aquele usu√°rio.
+
+__404 (NOT FOUND)__ - N√£o encontrado. Ocorre quando o usu√°rio tenta acessar uma √°rea inexistente no endere√ßo passado, por exemplo, p√°ginas removidas ou recursos exclu√≠dos.
