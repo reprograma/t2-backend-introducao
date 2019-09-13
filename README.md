@@ -1,18 +1,18 @@
 ## Semana 1
 
-### Introdução
+### IntroduÃ§Ã£o
 
-Semana introdutória, demonstrando todo o conceito e como o desenvolvimento funciona atualmente, entendendo suas características e diferenças entre o que é back-end, front-end, mobile e banco de dados. Inclusive, apresentando conceitos de infraestrutura. Demonstrando aplicações reais e todo o resultado que elas irão atingir durante o desenvolvimento do curso e ao final dele.
+Semana introdutÃ³ria, demonstrando todo o conceito e como o desenvolvimento funciona atualmente, entendendo suas caracterÃ­sticas e diferenÃ§as entre o que Ã© back-end, front-end, mobile e banco de dados. Inclusive, apresentando conceitos de infraestrutura. Demonstrando aplicaÃ§Ãµes reais e todo o resultado que elas irÃ£o atingir durante o desenvolvimento do curso e ao final dele.
 
 #### Aula 1
 
-- Conceitos Gerais – Backend, Frontend, Mobile e Banco de Dados
-- Infraestrutura – Como funciona a Internet, requisições
+- Conceitos Gerais â€“ Backend, Frontend, Mobile e Banco de Dados
+- Infraestrutura â€“ Como funciona a Internet, requisiÃ§Ãµes
 
 #### Aula 2
 
 - HTML
-	- Semântica
+	- SemÃ¢ntica
 	- Tags, atributos e elementos
 	- Estrutura
 
@@ -26,5 +26,9 @@ Semana introdutória, demonstrando todo o conceito e como o desenvolvimento funci
 #### Aula 4
 
 - GitHub
-	- Noções básicas
-	- Comandos básicos
+	- NoÃ§Ãµes bÃ¡sicas
+	- Comandos bÃ¡sicos
+
+#### Aula 5
+
+- RevisÃ£o da semana
