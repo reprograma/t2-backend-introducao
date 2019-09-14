@@ -1,4 +1,4 @@
-## Aula 1
+﻿## Aula 1
 
 ### 1.1	Conceitos Gerais – Backend, Frontend, Mobile e Banco de Dados
 
@@ -8,13 +8,13 @@ As linguagens client-side são linguagens onde apenas o seu NAVEGADOR vai entend
 
 #### Mobile
 
-#### Nativos
+##### Nativos
 Programa construído sob medida para uma plataforma, com o intuito de funcionar em sintonia com o dispositivo e todas as suas especificidades.
 
-#### Web
+##### Web
 Não são programas, mas funcionam como tal e são executados diretamente no navegador da internet.
 
-#### Híbridos
+##### Híbridos
 Não foi desenvolvido completamente na linguagem específica de cada sistema operacional, o app utiliza várias linguagens e engloba dois formatos: é metade nativo e metade web app.
 
 #### Banco de Dados
