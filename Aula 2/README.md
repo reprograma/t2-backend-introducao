@@ -13,12 +13,14 @@ HTML dá significado a informação, cada tag utilizada "marca" um conjunto de c
 #### Tags, Elementos e Atributos
 
 ___Tags___ são o conjunto de caracteres que formam um elemento.
+
 ___Elementos___ são formados a partir de Tags e entre as Tags é que está o conteúdo do Elemento.
+
 ___Atributos___ são informações que passamos na Tag para que ela se comporte da maneira esperada. Existem atributos globais (que funcionam em todas as Tags) e específicos (que são direcionados para cada Tag, através de especificação).
 
 #### Estrutura
 
-<!DOCTYPE html>
+``<!DOCTYPE html>
 <html lang="pt-br">
  	<head>
 		<title>Título da página</title>
@@ -27,4 +29,4 @@ ___Atributos___ são informações que passamos na Tag para que ela se comporte 
 	<body>
 		Aqui vai o código HTML que fará seu site aparecer.
 	</body>
-</html>
+</html>``
