@@ -8,11 +8,11 @@ O Cascading Style Sheets (CSS) é uma linguagem utilizada para definir a apresen
 
 Para escrever código CSS é necessário seguir uma regra. A regra é uma declaração que possui uma sintaxe própria bem simples que define a forma com que o estilo será aplicado aos nossos elementos HTML. Você pode ver a regra a seguir:
 
-``seletor{
+    seletor{
 
  	propriedade: valor;
 	
-}``
+    }
 
 #### Inline, interno e externo
 
@@ -28,7 +28,7 @@ A segunda forma é utilizar a tag style dentro do head da página HTML:
 
 	<head>
   	    <style type="text/css">
-    		seletor { 
+    	        seletor { 
 		   propriedade: valor; 
 		}
   	    </style>
@@ -47,26 +47,26 @@ As _classes_ são uma forma de identificar um grupo de elementos. Através delas
 
 **Código CSS:**
 
-``.classe1 {
+    .classe1 {
 
  	background: blue;
   
-}``
+    }
 
 **Código HTML:**
 
 	<!DOCTYPE html>
 	<html lang="pt-br">
   	    <head>
-    		<title></title>
-    		<meta charset="utf-8">
+	        <title></title>
+    	        <meta charset="utf-8">
   	    </head>
   	    <body>
-    		<div class="classe1">Div1</div>
-    		<div class="classe1">Div2</div>
-    		<div class="classe1">Div3</div>
-    		<div class="classe">Div4</div>
-    		<div class="classe1">Div5</div>
+                <div class="classe1">Div1</div>
+    	        <div class="classe1">Div2</div>
+    	        <div class="classe1">Div3</div>
+    	        <div class="classe">Div4</div>
+    	        <div class="classe1">Div5</div>
   	    </body>
 	</html>
 
@@ -76,43 +76,43 @@ As _ids_ são uma forma de identificar um elemento, e devem ser ÚNICAS para cad
 
 **Código CSS:**
 
-``#idUm {
+    #idUm {
 	
 	background: blue;
 	
-}
+    }
 
-#idDois {
+    #idDois {
 
 	background: yellow;
 
-}
+    }
 
-#idTres {
+    #idTres {
 
 	background: lightblue;
 
-}
+    }
 
-#idQuatro {
+    #idQuatro {
 
 	background: lightgreen;
 	
-}``
+    }
 
 **Código HTML:**
 
 	<!DOCTYPE html>
 	<html lang="pt-br">
  	    <head>
-    		<title></title>
-    		<meta charset="utf-8">
+    	        <title></title>
+    	        <meta charset="utf-8">
   	    </head>
   	    <body>
-    		<div id="idUm">Div1</div>
-    		<div id="idDois">Div2</div>
-    		<div id="idTres">Div3</div>
-    		<div id="idQuatro">Div4</div>
+    	        <div id="idUm">Div1</div>
+    	        <div id="idDois">Div2</div>
+    	        <div id="idTres">Div3</div>
+    	        <div id="idQuatro">Div4</div>
   	    </body>
 	</html>
 
