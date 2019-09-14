@@ -8,12 +8,19 @@ As linguagens client-side são linguagens onde apenas o seu NAVEGADOR vai entend
 
 #### Mobile
 
-#### Banco de Dados
+#### Nativos
+Programa construído sob medida para uma plataforma, com o intuito de funcionar em sintonia com o dispositivo e todas as suas especificidades.
 
+#### Web
+Não são programas, mas funcionam como tal e são executados diretamente no navegador da internet.
+
+#### Híbridos
+Não foi desenvolvido completamente na linguagem específica de cada sistema operacional, o app utiliza várias linguagens e engloba dois formatos: é metade nativo e metade web app.
+
+#### Banco de Dados
 Um banco de dados é uma coleção de dados inter-relacionados, representando informações sobre um domínio específico.
 
 ##### Relacional
-
 Os bancos de dados relacionais são fundamentados no paradigma da orientação a conjuntos, uma vez que sua base é construída em cima da teoria dos conjuntos.
 
 Esses bancos armazenam dados em estruturas chamadas tabelas, compostas por colunas — atributos e linhas —, tuplas ou registros. Sua linguagem é a SQL (Structured Query Language).
@@ -25,7 +32,6 @@ ACID:
 - Durabilidade: Toda informação do banco de dados precisa ser durável, somente podendo ser alterada pela aplicação através de comandos DML (Data Manipulation Language), que fazem "inserts", "updates" ou "deletes".
 
 ##### Não-Relacional
-
 Esse tipo de Banco de Dados surge como solução para situações nas quais os bancos relacionais não atendem de forma satisfatória. Ambientes com dados mistos — como imagens, mapas e tabelas — que não podem ser facilmente tabulados em linhas e colunas necessitam de uma solução não-relacional.
 
 Surgem aí bancos conhecidos como NoSQL (Do inglês, Not Only SQL).
@@ -38,7 +44,6 @@ CAP:
 ### 1.2	Início Infraestrutura – Como funciona a Internet, requisições
 
 #### Protocolo HTTP
-
 É um protocolo que os clientes e os servidores usam para se comunicar. Essa comunicação é baseada em requisições (request) e respostas (responses). 
 
 Conteúdo de uma solicitação:
@@ -52,7 +57,6 @@ Conteúdo de uma resposta:
 - Conteúdo (HTML real, imagem, etc)
 
 #### Métodos HTTP
-
 __GET__ - Solicita ao servidor um recurso chamado de solicitação URl. Este é o método padrão, pois é a forma como o browser chama o servidor quando se digita uma URL para que ele a recupere.
 
 __POST__ - Contém um corpo nos quais seus parâmetros de solicitação já são codificados. O mais frequente uso desse método é na submissão de formulários.
@@ -68,7 +72,6 @@ __OPTIONS__ - É possível fazer uma consulta de quais comandos estão disponív
 __TRACE__ - Permite depurar as requisições, devolvendo o cabeçalho de um documento.
 
 #### Códigos de HTTP mais comuns
-
 __200 (OK)__ – Informa que a confirmação da requisição foi respondida com sucesso.
 
 __401 (UNAUTHORIZED)__ – Informa que o cliente não tem acesso autorizado para acessar a área requisitada. Ocorre muito em intranets de acesso privado que precisam ser acessadas com um usuário e senha.
