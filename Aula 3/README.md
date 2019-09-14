@@ -28,8 +28,8 @@ A segunda forma é utilizar a tag style dentro do head da página HTML:
   	    <style type="text/css">
                 seletor { 
                     propriedade: valor; 
-		}
-  	    </style>
+                }
+            </style>
 	</head>
 
 **Externo**
