@@ -27,7 +27,7 @@ A segunda forma é utilizar a tag style dentro do head da página HTML:
 	<head>
   	    <style type="text/css">
                 seletor { 
-		    propriedade: valor; 
+                    propriedade: valor; 
 		}
   	    </style>
 	</head>
