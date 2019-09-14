@@ -26,7 +26,7 @@ A segunda forma é utilizar a tag style dentro do head da página HTML:
 
 	<head>
   	    <style type="text/css">
-    	        seletor { 
+                seletor { 
 		    propriedade: valor; 
 		}
   	    </style>
@@ -54,7 +54,7 @@ As _classes_ são uma forma de identificar um grupo de elementos. Através delas
 	<!DOCTYPE html>
 	<html lang="pt-br">
   	    <head>
-	        <title></title>
+                <title></title>
                 <meta charset="utf-8">
   	    </head>
   	    <body>
