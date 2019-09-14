@@ -9,7 +9,9 @@ O Cascading Style Sheets (CSS) é uma linguagem utilizada para definir a apresen
 Para escrever código CSS é necessário seguir uma regra. A regra é uma declaração que possui uma sintaxe própria bem simples que define a forma com que o estilo será aplicado aos nossos elementos HTML. Você pode ver a regra a seguir:
 
 ``seletor{
-  propriedade: valor;
+
+ 	propriedade: valor;
+	
 }``
 
 #### Inline, interno e externo
@@ -25,17 +27,19 @@ A primeira forma de aplicar CSS a uma página é utilizando o atributo style em 
 A segunda forma é utilizar a tag style dentro do head da página HTML:
 
 	<head>
-  		<style type="text/css">
-    			seletor { propriedade: valor; }
-  		</style>
+  	    <style type="text/css">
+    		seletor { 
+		   propriedade: valor; 
+		}
+  	    </style>
 	</head>
 
 **Externo**
 E a última - porém a mais utilizada - maneira de aplicar CSS é criar um ou mais arquivos com extensão .css e incluí-los na estrutura head do HTML:
 
 	<head>
-  		<link rel="stylesheet" type="text/css" href="reset.css">
-  		<link rel="stylesheet" type="text/css" href="styles.css">
+  	    <link rel="stylesheet" type="text/css" href="reset.css">
+  	    <link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 
 #### Classe e ID
@@ -44,24 +48,26 @@ As _classes_ são uma forma de identificar um grupo de elementos. Através delas
 **Código CSS:**
 
 ``.classe1 {
-  background: blue;
+
+ 	background: blue;
+  
 }``
 
 **Código HTML:**
 
 	<!DOCTYPE html>
 	<html lang="pt-br">
-  		<head>
-    			<title></title>
-    			<meta charset="utf-8">
-  		</head>
-  		<body>
-    			<div class="classe1">Div1</div>
-    			<div class="classe1">Div2</div>
-    			<div class="classe1">Div3</div>
-    			<div class="classe">Div4</div>
-    			<div class="classe1">Div5</div>
-  		</body>
+  	    <head>
+    		<title></title>
+    		<meta charset="utf-8">
+  	    </head>
+  	    <body>
+    		<div class="classe1">Div1</div>
+    		<div class="classe1">Div2</div>
+    		<div class="classe1">Div3</div>
+    		<div class="classe">Div4</div>
+    		<div class="classe1">Div5</div>
+  	    </body>
 	</html>
 
 Então, todas as 'divs' que estiverem com a classe "classe1" estarão com um background azul(blue).
@@ -71,32 +77,43 @@ As _ids_ são uma forma de identificar um elemento, e devem ser ÚNICAS para cad
 **Código CSS:**
 
 ``#idUm {
-  background: blue;
+	
+	background: blue;
+	
 }
+
 #idDois {
-  background: yellow;
+
+	background: yellow;
+
 }
+
 #idTres {
-  background: lightblue;
+
+	background: lightblue;
+
 }
+
 #idQuatro {
-  background: lightgreen;
+
+	background: lightgreen;
+	
 }``
 
 **Código HTML:**
 
 	<!DOCTYPE html>
 	<html lang="pt-br">
- 		<head>
-    			<title></title>
-    			<meta charset="utf-8">
-  		</head>
-  		<body>
-    			<div id="idUm">Div1</div>
-    			<div id="idDois">Div2</div>
-    			<div id="idTres">Div3</div>
-    			<div id="idQuatro">Div4</div>
-  		</body>
+ 	    <head>
+    		<title></title>
+    		<meta charset="utf-8">
+  	    </head>
+  	    <body>
+    		<div id="idUm">Div1</div>
+    		<div id="idDois">Div2</div>
+    		<div id="idTres">Div3</div>
+    		<div id="idQuatro">Div4</div>
+  	    </body>
 	</html>
 
 Então, como mostra o código acima, não podemos repetir uma 'id'. Deve ser especialmente única para cada elemento.
