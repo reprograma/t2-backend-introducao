@@ -20,7 +20,8 @@ ___Atributos___ são informações que passamos na Tag para que ela se comporte 
 
 #### Estrutura
 
-``<!DOCTYPE html>
+``
+<!DOCTYPE html>
 <html lang="pt-br">
  	<head>
 		<title>Título da página</title>
@@ -29,4 +30,5 @@ ___Atributos___ são informações que passamos na Tag para que ela se comporte 
 	<body>
 		Aqui vai o código HTML que fará seu site aparecer.
 	</body>
-</html>``
+</html>
+``
