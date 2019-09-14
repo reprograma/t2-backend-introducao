@@ -11,3 +11,7 @@ O Github é um serviço web que oferece diversas funcionalidades extras aplicada
 #### Comandos Básicos
 
 https://github.com/joshnh/Git-Commands/blob/master/READMEpt.md
+
+#### Tutorial
+
+https://medium.com/reprogramabr/git-e-github-por-onde-come%C3%A7ar-ca88a783c223
