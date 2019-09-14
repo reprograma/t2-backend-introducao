@@ -8,10 +8,8 @@ O Cascading Style Sheets (CSS) é uma linguagem utilizada para definir a apresen
 
 Para escrever código CSS é necessário seguir uma regra. A regra é uma declaração que possui uma sintaxe própria bem simples que define a forma com que o estilo será aplicado aos nossos elementos HTML. Você pode ver a regra a seguir:
 
-    seletor{
-
- 	propriedade: valor;
-	
+    seletor {
+ 	propriedade: valor;	
     }
 
 #### Inline, interno e externo
@@ -48,9 +46,7 @@ As _classes_ são uma forma de identificar um grupo de elementos. Através delas
 **Código CSS:**
 
     .classe1 {
-
- 	background: blue;
-  
+ 	background: blue;  
     }
 
 **Código HTML:**
@@ -76,28 +72,20 @@ As _ids_ são uma forma de identificar um elemento, e devem ser ÚNICAS para cad
 
 **Código CSS:**
 
-    #idUm {
-	
-	background: blue;
-	
+    #idUm {	
+	background: blue;	
     }
 
     #idDois {
-
 	background: yellow;
-
     }
 
     #idTres {
-
 	background: lightblue;
-
     }
 
     #idQuatro {
-
-	background: lightgreen;
-	
+	background: lightgreen;	
     }
 
 **Código HTML:**
